@@ -1,0 +1,6 @@
+# React.js
+blog-client/node_modules/
+
+# Java/Spring Boot
+blog-backend/target
+*.class

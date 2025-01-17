@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  height: 100vh;
+}
+
+.ql-editor {
+  font-size: 1.05rem;
+}
+
+.post-content p {
+  margin-bottom: 0.5rem;
+  text-align: justify;
+}
+
+.post-content h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 1.5rem 0;
+  font-family: sans-serif;
+}
+
+.post-content h2 {
+  font-size: 1.4rem;
+  margin: 1.5rem 0;
+  font-family: sans-serif;
+}
+
+.post-content h3 {
+  font-size: 1.2rem;
+  margin: 1.5rem 0;
+  font-family: sans-serif;
+}
+
+.post-content a {
+  color: rgb(73, 149, 199);
+}
+
+.post-content a:hover {
+  text-decoration: underline;
+}
+
+.dark .post-content a {
+  color: #ff5d5d;
+}
